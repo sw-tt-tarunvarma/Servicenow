@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Create New User" max_length="40" name="x_162995_user_mana_create_new_user" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Assign by" max_length="32" name="user_assign_to" reference="x_162995_user_mana_create_new_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Department" max_length="40" name="user_department" type="string">
+            <choice>
+                <element label="IT" sequence="0" value="IT"/>
+                <element label="HR" sequence="1" value="HR"/>
+                <element label="Network" sequence="2" value="Network"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Email" mandatory="true" max_length="150" name="user_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="First Name" mandatory="true" max_length="100" name="user_first_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Last Name" max_length="100" name="user_last_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Middle Name" max_length="100" name="user_middle_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Role" max_length="40" name="user_role" type="string">
+            <choice>
+                <element label="Software Analyst" sequence="0" value="System Analyst"/>
+                <element label="Account Manager" sequence="1" value="Account Manager"/>
+                <element label="Network Admin" sequence="2" value="Network Admin"/>
+            </choice>
+        </element>
+        <element label="Site URL" max_length="1024" name="user_site_url" type="url"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="Active" label="Status" max_length="40" name="user_status" type="string">
+            <choice>
+                <element label="Active" sequence="0" value="Active"/>
+                <element label="Inactive" sequence="1" value="Inactive"/>
+            </choice>
+        </element>
+        <element label="New IP Address (Validated IPV4, IPV6)" max_length="40" name="u_ip_addr_1" type="ip_addr"/>
+        <index name="index">
+            <element name="user_assign_to"/>
+        </index>
+    </element>
+</database>

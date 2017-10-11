@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="user_first_name" label="First Name" language="en" table="x_162995_user_mana_create_new_user">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>user_first_name</element>
+            <help/>
+            <hint/>
+            <label>First Name</label>
+            <language>en</language>
+            <name>x_162995_user_mana_create_new_user</name>
+            <plural>First Names</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-10 13:21:28</sys_created_on>
+            <sys_id>f9b42fd44f71030001fb78e18110c7cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>First Name</sys_name>
+            <sys_package display_value="User management" source="x_162995_user_mana">2022ab544f71030001fb78e18110c7fa</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="User management">2022ab544f71030001fb78e18110c7fa</sys_scope>
+            <sys_update_name>sys_documentation_x_162995_user_mana_create_new_user_user_first_name_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-10 13:21:28</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

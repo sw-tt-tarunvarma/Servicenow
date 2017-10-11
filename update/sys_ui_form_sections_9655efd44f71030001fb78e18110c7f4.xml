@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="9655efd44f71030001fb78e18110c7f4" sys_domain="global" table="x_162995_user_mana_create_new_user" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-10 13:24:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9e5563184f71030001fb78e18110c76b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_162995_user_mana_create_new_user" name="x_162995_user_mana_create_new_user" sys_domain="global" view="Default view">9655efd44f71030001fb78e18110c7f4</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_162995_user_mana_create_new_user" sys_domain="global" view="Default view">4354a7d44f71030001fb78e18110c775</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-10 13:24:14</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-10 13:24:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9a5563184f71030001fb78e18110c76c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_162995_user_mana_create_new_user" name="x_162995_user_mana_create_new_user" sys_domain="global" view="Default view">9655efd44f71030001fb78e18110c7f4</sys_ui_form>
+            <sys_ui_section caption="Personal Details" display_value="Personal Details" name="x_162995_user_mana_create_new_user" sys_domain="global" view="Default view">5a55efd44f71030001fb78e18110c7f3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-10 13:24:14</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_162995_user_mana_create_new_user</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-10 13:24:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9655efd44f71030001fb78e18110c7f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_162995_user_mana_create_new_user</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="User management" source="x_162995_user_mana">2022ab544f71030001fb78e18110c7fa</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="User management">2022ab544f71030001fb78e18110c7fa</sys_scope>
+            <sys_update_name>sys_ui_form_sections_9655efd44f71030001fb78e18110c7f4</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-10 13:24:14</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
